@@ -20,6 +20,7 @@ in {
 
     environment.systemPackeges = with pkgs; [
         git
+        zsh
     ];
 
     system.stateVersion = "20.03";
