@@ -18,7 +18,7 @@ in {
         };
     };
 
-    environment.systemPackeges = with pkgs; [
+    environment.systemPackages = with pkgs; [
         git
         zsh
     ];
