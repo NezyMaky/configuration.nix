@@ -9,6 +9,8 @@ in {
         ./users.nix
     ];
 
+    time.timeZone = "Asia/Tokyo";
+    
     nixpkgs.config = {
         allowUnfree = true;
         packageOverrides = pkgs: {
